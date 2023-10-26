@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .customer-page{
     display: flex;
     font-family:sans-serif;
@@ -70,8 +74,8 @@
 input{
     border: none;
     outline:none;
-   width: 90%;
-   background-color: #ECEAEA;
+    width: 90%;
+    background-color: #ECEAEA;
 }
 form{
     border: 1px solid black;
@@ -95,17 +99,42 @@ form{
     padding: 5px;
 }
 
+
+
 .data{
     display: flex;
     margin-top: 30px;
     background-color: white;
     padding: 10px 15px ;
     border-radius: 20px;
-    height: 250px;
+    /* height: 250px; */
+    flex-wrap: wrap;
+    padding-bottom: 150px;
 }
+
+@media screen and (max-width:768px) {
+    .input-resp{
+        display: none;
+        background-color: whitesmoke;
+    }
+
+    .button-resp{
+        border: 1px solid black;
+        padding: 6px;
+        border-radius: 20px;
+    }
+
+    form{
+        border: none;
+        background-color: whitesmoke;
+    }  
+    .data{
+        padding-bottom: 20px;
+    }
+}
+
 .table-name{
     font-size: 15px;
-    
 }
 .tableee{
     margin-top: 20px;
@@ -126,8 +155,6 @@ form{
 .table-head ul li{
     /* width: 25%; */
     padding: 5px 40px;
-   
-   
 }
 .table-data ul{
     display: flex;
@@ -150,6 +177,7 @@ form{
     align-items: center;
     width:25vw;
     margin-top: 4.5px;
+    margin-left: 21px;
 }
 .date{
     color: grey;
@@ -218,13 +246,16 @@ form{
 .address-cards{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .address-card{
-    width: 200px;
+    width: 250px;
     margin-top: 20px;
     background-color: white;
-    padding: 10px 15px;
+    padding: 21px 15px;
     border-radius: 20px;
 }
 .address-top{
@@ -236,10 +267,7 @@ form{
     font-size: 14px;
 }
 .user-name{
-    font-size: 12px;
-    /* padding: 10px; */
-    /* padding-bottom: 20px; */
-    
+    font-size: 12px;    
 }
 .adderss{
   
