@@ -1,0 +1,254 @@
+.customer-page{
+    display: flex;
+    font-family:sans-serif;
+}
+.sidenav{
+    /* width: 15vw; */
+    width: fit-content;
+    /* height: 100vh; */
+}
+
+.sidenavtop{
+    padding:10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidenavtop i{
+    font-size: 25px;
+}
+.sidenavtop img{
+    width: 100px;
+}
+
+.morelinks{
+    margin: 0px 10px;
+}
+.morelinks-top{
+    display: flex;
+    justify-content: space-between;
+}
+.morelinks ul{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500px;
+}
+.morelinks span{
+    font-size: 14px;
+    /* font-weight: bolder; */
+}
+.morelinks ul li{
+    margin:0px 0px;
+    padding: 5px 40px 5px 5px;
+    border-radius: 40px;
+    width: max-content;
+    /* text-align: center; */
+}
+.morelinks ul li:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.main-right{
+    width: 100%;
+    padding: 5px 30px;
+    background-color: #F5F4F4;
+   
+}
+
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.right-nav h2{
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    outline:none;
+   width: 90%;
+   background-color: #ECEAEA;
+}
+form{
+    border: 1px solid black;
+    padding: 5px;
+    width: 30%;
+    border-radius:30px ;
+    background-color: #ECEAEA;
+}
+.userbtn{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.user{
+    background-color:#d4d4d4;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.data{
+    display: flex;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px 15px ;
+    border-radius: 20px;
+    height: 250px;
+}
+.table-name{
+    font-size: 15px;
+    
+}
+.tableee{
+    margin-top: 20px;
+}
+.table-head ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: start;
+    width: 50vw;
+    font-size: 12px;
+}
+.table-head{
+    background-color: #31B195;
+}
+.table-head ul li{
+    /* width: 25%; */
+    padding: 5px 40px;
+   
+   
+}
+.table-data ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: start;
+    width: 50vw;
+    font-size: 12px;
+}
+.table-data ul li{
+    padding: 5px 40px;
+}
+
+.table-top{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:25vw;
+    margin-top: 4.5px;
+}
+.date{
+    color: grey;
+    opacity: 0.8;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+
+.tableee2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.table-head2 ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: start;
+    /* width: 50vw; */
+    font-size: 12px;
+}
+.table-head2{
+    background-color: #31B195;
+}
+.table-head2 ul li{
+    padding: 5px 40px
+}
+
+.table-data2 ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: start;
+    /* width: 50vw; */
+    font-size: 12px;
+}
+.table-data2 ul li{
+    padding: 5px 40px;
+}
+.data ul{
+    border-bottom: 1px solid grey;
+   
+}
+
+
+.office{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.office span{
+    font-size: 18px;
+}
+.office div i{
+    background-color: sandybrown;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+}
+.address-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.address-card{
+    width: 200px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.address-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.loaction{
+    font-size: 14px;
+}
+.user-name{
+    font-size: 12px;
+    /* padding: 10px; */
+    /* padding-bottom: 20px; */
+    
+}
+.adderss{
+  
+    display: flex;
+    flex-direction: column;
+}
+.address p{
+    /* padding:5px; */
+    margin: 0;
+    padding-top: 5px;
+    font-size: 12px;
+}
